@@ -1,5 +1,5 @@
 :root {
-    --main-color: #05775c;
+    --main-color: rgb(5, 119, 92);
 }
 
 .layout {
@@ -18,6 +18,7 @@
     color: white;
     justify-content: center;
     font-size: 30px; 
+    font-weight: 500;
     flex-shrink: 0;
     background-color: var(--main-color)
 }
@@ -115,8 +116,10 @@
 
 .main-widget__slider {
     background: url(/img/bg.jpg);
-    background-size: cover;
+    background-color: rgba(122, 122, 122, 0.5);
     background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
     background-repeat: no-repeat;
     
     display: flex;
@@ -127,7 +130,10 @@
 .main-widget__promo {
     background-color: var(--main-color);
     color: white;
-    font-size: 1.7em;
+}
+
+.main-widget__arrow:hover {
+background-color: rgba(255, 255, 255, 0.5);
 }
 
 .main-widget__arrow {
@@ -141,35 +147,32 @@
     height: 40px;
 }
 
+.title {
+    border-bottom: 2px solid black;
+}
+
 @media screen and (max-width: 766px) { 
     .nav__item_text-hidden {
         display: none;
     }
 
     .main-widget {
-        height: 530px;
+        height: 630px;
     }
     
     .main-widget__section {
         width: 100%;
-        height: 250px;
+        height: 300px;
     }
 
-    .main-widget__section_promo {
-        font-size: 1.1em;
+    .main-widget__text {
     }
 }
 
 @media screen and (min-width: 767px) {
-    .main-widget__section {
-        width: 100%;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
     .main-widget {
         height: 450px;
+        font-size: 24px;
     }
 
     .main-widget__section {
