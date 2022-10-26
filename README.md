@@ -5,7 +5,7 @@
 Проект, вдохновлённый [Читай-Городом](https://www.chitai-gorod.ru/) и [LiveLib](https://www.livelib.ru/), будет представлять из себя интернет-магазин книг с корзиной товаров, просмотром краткого описания книг, их характеристик и каталога где эти книги будут сгруппированы по жанрам и писателям. 
 ## Макет 
 ---
-(Пока что отсутствует)
+[Макет](https://www.figma.com/file/XYUHXgItR0o9IjXA20b1uo/Book-shop?node-id=0%3A1)
 ## Технологии разработки 
 - ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)\
   Для создания макета
