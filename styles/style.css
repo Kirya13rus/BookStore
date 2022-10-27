@@ -255,6 +255,8 @@ background-color: rgba(155, 155, 155, 0.5);
     font-size: 15px;
     width: 50%;
     justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
 }
 
 .footer__logo {
