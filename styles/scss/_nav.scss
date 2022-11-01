@@ -1,0 +1,35 @@
+@import 'mixins';
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    &__item_text-hidden {
+        word-wrap: break-word;
+        width: 200px;
+        text-align: left;
+    }
+
+    &__menu {
+        height: 40px;
+    }
+}
+
+@include mobile {
+    .nav {
+        &__item_text-hidden {
+            display: none;
+        }
+    }
+
+}

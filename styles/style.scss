@@ -1,0 +1,17 @@
+@import 'nav';
+@import 'layout';
+@import 'logo';
+@import 'layout-wrap';
+@import 'arrow';
+@import 'search-form';
+@import 'main-widget';
+@import 'books';
+@import 'title';
+@import 'button';
+@import 'footer';
+@import 'spacer';
+@import 'mixins';
+
+:root {
+    --main-color: #05775c;
+}

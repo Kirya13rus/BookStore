@@ -1,0 +1,38 @@
+@import 'mixins';
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+
+    &__section {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+    
+    &__column {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__link {
+        color: #ffffff;
+    }
+}
+
+@include mobile {
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    
+        &__section {
+            flex-direction: column;
+        }
+    }
+}

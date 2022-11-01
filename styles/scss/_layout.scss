@@ -1,0 +1,34 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    &__header {
+        height: 100px;
+        display: flex;
+        color: #ffffff;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 500;
+        flex-shrink: 0;
+        background-color: var(--main-color)
+    }
+
+    &__container {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        flex: 1;
+        gap: 30px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        flex-shrink: 0;
+        background-color: var(--main-color);
+        padding: 10px;
+    }
+}
