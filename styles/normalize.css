@@ -30,6 +30,7 @@
   
   main {
     display: block;
+    font-weight: 400;
   }
   
   /**
@@ -43,7 +44,6 @@
   h4,
   h5,
   h6 {
-    font-size: 1.7em;
     margin: 0px;
     font-weight: 500;
   }

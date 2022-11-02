@@ -16,9 +16,6 @@
   width: 200px;
   text-align: left;
 }
-.nav__menu {
-  height: 40px;
-}
 
 @media screen and (max-width: 767px) {
   .nav__item_text-hidden {
@@ -79,9 +76,6 @@
   position: absolute;
   left: 0;
 }
-.arrow__icon {
-  height: 40px;
-}
 .arrow:hover {
   background-color: rgba(155, 155, 155, 0.5019607843);
 }
@@ -103,10 +97,6 @@
   border: 1px solid #000000;
   border-radius: 0px 20px 20px 0px;
 }
-.search-form__submit-icon {
-  overflow: hidden;
-  max-height: 100%;
-}
 
 .main-widget {
   height: 250px;
@@ -125,6 +115,7 @@
 }
 .main-widget__text {
   font-weight: 400;
+  margin: 0px 40px;
 }
 .main-widget__slider {
   display: flex;
