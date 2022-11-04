@@ -17,11 +17,12 @@
     }
 
     &__container {
-        display: flex;
-        align-self: center;
+        display: inline-flex;
+        align-self: stretch;
         flex-direction: column;
         flex: 1;
         gap: 30px;
+        padding: 0 50px;
     }
 
     &__footer {

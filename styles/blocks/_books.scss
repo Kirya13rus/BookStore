@@ -18,7 +18,7 @@
 
     &__section {
         display: flex;
-        margin: 0px 40px;
+        margin: 0 40px;
         flex: 1;
         gap: 30px;
         flex-wrap: wrap;
@@ -56,13 +56,13 @@
     }
     
     &__price {
-        border-width: 1px 1px 0px 1px;
+        border-width: 1px 1px 0 1px;
         border-style: solid;
         border-color: #000000;
         background-color: #ffffff;
-        border-radius: 20px 0px 20px 20px;
+        border-radius: 20px 0 20px 20px;
         position: absolute;
-        right: 0px;
+        right: 0;
         padding: 5px;
         margin: 0;
     }
@@ -75,7 +75,7 @@
     
     &__price_new {
         font-size: 20px;
-        bottom: 0px;
+        bottom: 0;
         color: #ff0000;
     }
 }
