@@ -18,7 +18,12 @@
 
     &__section {
         display: flex;
+<<<<<<< HEAD:styles/blocks/_books.scss
         margin: 0 40px;
+=======
+        // если значение свойства = 0, то единицы измерения писать не нужно
+        margin: 0px 40px;
+>>>>>>> aa22f230d9f71989339c36730ef86922781c9188:styles/scss/_books.scss
         flex: 1;
         gap: 30px;
         flex-wrap: wrap;
