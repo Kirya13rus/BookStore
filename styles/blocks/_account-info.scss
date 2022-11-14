@@ -1,0 +1,39 @@
+@import '../blocks/mixins';
+
+.account-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    &__img {
+        border-radius: 50%;
+    }
+
+    &__about-user {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-self: auto;
+        gap: 20px;
+        text-align: start;
+    }
+}
+
+@include mobile {
+    .account-info {
+        flex-direction: column;
+
+        &__img {
+            width: 50vw;
+        }
+    }
+}
+
+@include desktop {
+    .account-info {
+        &__img {
+            width: 250px;
+        }
+    }
+}

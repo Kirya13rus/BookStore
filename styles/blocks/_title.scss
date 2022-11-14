@@ -1,5 +1,13 @@
 .title {
+    position: relative;
     box-sizing: border-box;
-    border-bottom: 2px solid #000000;
-}
+    border-bottom: 3px solid #000000;
 
+    &__secondary-title {
+        border-bottom: 2px solid var(--main-color);
+    }
+
+    &-btn {
+        float: right;
+    }
+}

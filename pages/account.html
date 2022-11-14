@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/account-styles/style.css">
+    <script src="https://kit.fontawesome.com/a81b439012.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__header">
+            <nav class="nav">
+                <div class="nav__item button">
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                    <div class="nav__item_text-hidden">
+                        Каталог
+                    </div>
+                </div>
+                <a href="/index.html"><img src="/img/bookstore-logo.png" alt="logo" class="nav__item logo button"></a>
+                <div class="nav__item button">
+                    <div class="nav__item_text-hidden">
+                        Имя пользователя
+                    </div>
+                    <i class="fa-solid fa-user fa-xl"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="layout__container">
+            <div class="account-info">
+                <img src="/img/account.png" alt="account-img" class="account-info__img">
+                <div class="account-info__about-user">
+                    <h2>Имя пользователя: Кирилл</h2>
+                    <h2>Почта: kirill13rus@mail.ru</h2>
+                    <h2>Телефон: +12345678910</h2>
+                    <h2>Город: Саранск</h2>
+                </div>
+            </div>
+            <h1 class="title">
+                Мои коллекции
+                <i class="fa-solid fa-plus title-btn button"></i>
+            </h1>
+            <div class="books-collections">
+                <h2 class="title title__secondary-title">
+                    Читаю
+                    <i class="title-btn">
+                        <i class="fa-solid fa-pen button"></i>
+                        <i class="fa-solid fa-trash button"></i>
+                    </i>
+                </h2>
+                <div class="books">
+                    <button class="arrow arrow-left arrow-left_disabled button">
+                        <i class="fa-solid fa-angle-left fa-3x"></i>
+                    </button>
+                    <div class="books__section">
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/coraline.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">645 Р</p>
+                                <p class="books__price books__price_new">457 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">Коралина</p>
+                                <p class="books__author">Нил Гейман</p>
+                            </div>
+                        </a>
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/atlas-shrugged.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">1190 Р</p>
+                                <p class="books__price books__price_new">952 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">Атлас расправил плечи</p>
+                                <p class="books__author">Айн Рэнд</p>
+                            </div>
+                        </a>
+                        <div class="spacer"></div>
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/metro-2033.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">1050 Р</p>
+                                <p class="books__price books__price_new">745 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">Метро 2033</p>
+                                <p class="books__author">Дмитрий Глуховский</p>
+                            </div>
+                        </a>
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/the-witcher.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">2047 Р</p>
+                                <p class="books__price books__price_new">1453 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">Ведьмак</p>
+                                <p class="books__author">Анджей Сапковский</p>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="arrow arrow-right button">
+                        <i class="fa-solid fa-angle-right fa-3x"></i>
+                    </button>
+                </div>
+                <h2 class="title title__secondary-title">
+                    Хочу прочесть
+                    <i class="title-btn">
+                        <i class="fa-solid fa-pen button"></i>
+                        <i class="fa-solid fa-trash button"></i>
+                    </i>
+                </h2>
+                <div class="books">
+                    <button class="arrow arrow-left button">
+                        <i class="fa-solid fa-angle-left fa-3x"></i>
+                    </button>
+                    <div class="books__section">
+                        <div class="spacer"></div>
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/1984.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">299 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">1984</p>
+                                <p class="books__author">Джордж Оруэлл</p>
+                            </div>
+                        </a>
+                        <a href="#" class="books__item">
+                            <div class="books__main-container">
+                                <img src="/img/books/howl's-moving-castle.jpg" alt="book-img" class="books__book-cover">
+                                <p class="books__price books__price_old">484 Р</p>
+                            </div>
+                            <div class="books__card">
+                                <p class="books__title">Ходячий Замок</p>
+                                <p class="books__author">Диана Уинн Джонс</p>
+                            </div>
+                        </a>
+                    </div>
+                    <button class="arrow arrow-right button">
+                        <i class="fa-solid fa-angle-right fa-3x"></i>
+                    </button>
+                </div>
+                <h2 class="title title__secondary-title">
+                    Прочтено
+                    <i class="title-btn">
+                        <i class="fa-solid fa-pen button"></i>
+                        <i class="fa-solid fa-trash button"></i>
+                    </i>
+                </h2>
+                <div class="books">
+                    <button class="arrow arrow-left arrow-left_disabled button">
+                        <i class="fa-solid fa-angle-left fa-3x"></i>
+                    </button>
+                    <div class="books__section_empty">
+                        <h2>
+                            Вы ещё ничего не добавили в коллекцию
+                        </h2>
+                        <a href="/index.html">Пройти на главную</a></div>
+                    <button class="arrow arrow-right button">
+                        <i class="fa-solid fa-angle-right fa-3x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="layout__footer">
+            <div class="footer">
+                <div class="footer__logo">
+                    <img src="/img/bookstore-logo.png" alt="logo" class="logo">
+                    <p>© The Books Place</p>
+                </div>
+                <div class="footer__section">
+                    <div class="footer__column">
+                        <h2>Проект</h2>
+                        <ul>
+                            <li><a href="#" class="footer__link">О проекте</a></li>
+                            <li><a href="#" class="footer__link">Команда</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h2>Поддержка</h2>
+                        <ul>
+                            <li><a href="#" class="footer__link">Пожаловаться</a></li>
+                            <li><a href="#" class="footer__link">Тех. поддержка</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h2>Контакты</h2>
+                        <ul>
+                            <li><a href="tel:+12345678910" class="footer__link">+12345678910</a></li>
+                            <li><a href="mailto:mail@mail.ru" class="footer__link">mail@mail.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

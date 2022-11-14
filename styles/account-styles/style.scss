@@ -1,0 +1,16 @@
+@import '../blocks/layout';
+@import '../blocks/arrow';
+@import '../blocks/logo';
+@import '../blocks/footer';
+@import '../blocks/nav';
+@import '../blocks/button';
+@import '../blocks/title';
+@import '../blocks/mixins';
+@import '../blocks/account-info';
+@import '../blocks/books';
+@import '../blocks/books-collections';
+@import '../blocks/spacer';
+
+:root {
+    --main-color: #05775c;
+}

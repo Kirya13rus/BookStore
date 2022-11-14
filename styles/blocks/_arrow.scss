@@ -9,11 +9,19 @@
         right: 0;
     }
 
+    &-right_disabled {
+        color: #57575780;
+    }
+
     &-left {
         position: absolute;
         left: 0;
     }
     
+    &-left_disabled {
+        color: #57575780;
+    }
+
     &:hover {
         background-color: #9b9b9b80;
     }
